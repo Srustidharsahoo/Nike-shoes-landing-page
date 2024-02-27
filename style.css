@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    padding: 20px 50px;
+    font-family: "Lobster", cursive;
+    margin-top: 20px;
+}
+
+.header-logo img{
+    width: 180px;
+}
+
+nav{
+   display: flex;
+   align-items: center;
+}
+
+.nav-item span{
+    display: inline;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bi-cart3{
+    font-size: 48px;
+    margin-left: 30px;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px 30px 0px 0px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 30px;
+    padding: 100px;
+    font-family: arial;
+}
+
+.box1 h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.brand-name span{
+    color: #5493AB;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.brand-name{
+    margin-bottom: 40px;
+}
+
+.brand-desc{
+    margin-bottom: 40px;
+    font-weight: 500;
+    color: #545454;
+}
+
+.buy-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon{
+    padding: 10px;
+}
+
+.icon span{
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #5493AB;
+    padding: 12px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #5493AB;
+    border: none;
+
+}
